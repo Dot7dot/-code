@@ -1,0 +1,16 @@
+#python
+#生輔組 code
+type = int(input("1 or 2 ?"))
+
+if(type==2):
+    a = float(input("上學期："))
+    b = float(input("上學期全："))
+    c = float(input("下學期："))
+    d = float(input("下學期全："))
+    print(a/b)
+    print(c/d)
+    print(((a/b)+(c/d))/2)
+else:
+    a = float(input("上學期："))
+    b = float(input("下學期："))
+    print ((a+b)/2)'''
